@@ -1,0 +1,10 @@
+/build
+/coverage
+/dist
+/node_modules/
+/package-lock.json
+*.config.js
+*.html
+*.md
+*.module.css
+*.json

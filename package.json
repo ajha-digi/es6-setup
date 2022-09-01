@@ -1,11 +1,9 @@
 {
-  "name": "server",
+  "name": "flag-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js",
-    "build": "babel index.js --out-file build/index.js",
     "pretty": "prettier --write .",
     "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\" && husky install",
     "lint:fix": "eslint --fix --ext .js,.jsx ."
@@ -16,9 +14,10 @@
       "prettier --write"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajha-digi/es6-setup.git"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
@@ -35,5 +34,12 @@
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajha-digi/es6-setup/issues"
+  },
+  "homepage": "https://github.com/ajha-digi/es6-setup#readme"
 }

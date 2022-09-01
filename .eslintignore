@@ -1,0 +1,12 @@
+client/build
+server/build
+/coverage
+/dist
+client/node_modules/
+server/node_modules/
+/package-lock.json
+/dist/
+/*.config.js
+/*.html
+/*.md
+/*.json
