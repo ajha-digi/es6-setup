@@ -8,3 +8,5 @@ app.get("/", (req, res) => {
 app.listen(4000, () => {
   console.log(`app is listening to port 4000`)
 })
+
+// https://cloudnweb.dev/2019/07/configuring-babel-for-node-js-express-server/
