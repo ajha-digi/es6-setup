@@ -6,15 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node index.js",
     "build": "babel index.js --out-file build/index.js",
-    "pretty": "prettier --write .",
-    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\" && husky install",
-    "lint:fix": "eslint --fix --ext .js,.jsx ."
-  },
-  "lint-staged": {
-    "**/*.{js,jsx}": [
-      "npm run lint",
-      "prettier --write"
-    ]
+    "pretty": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -30,10 +22,6 @@
     "@babel/core": "^7.18.13",
     "@babel/node": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
-    "eslint": "^8.23.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.0",
-    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   }
 }
