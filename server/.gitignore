@@ -1,0 +1,12 @@
+node_modules
+
+package-lock.json
+
+.yarn
+dist/
+
+build
+
+coverage
+
+test-report.xml
