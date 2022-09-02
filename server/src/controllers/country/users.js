@@ -1,5 +1,5 @@
 // REQUIRE MODEL
-import { userModel } from "../../models/users/users";
+import { userModel } from "../../models/country";
 
 export const userController = {
 
